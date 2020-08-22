@@ -5,7 +5,7 @@ import Message from "./Message/Message";
 function App() {
   return (
     <div className="App">
-        <Message name='' text='' />
+        <Message name='Alex' text='Hi! How are you?' time='20:00'/>
     </div>
   );
 }
