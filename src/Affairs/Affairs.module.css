@@ -1,0 +1,37 @@
+.box {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    background-color: lawngreen;
+    border: 1px solid blue;
+    border-radius: 5px;
+}
+
+.container {
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+
+}
+.container button {
+    margin-left: 2px;
+}
+ul {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.item {
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: 1.5fr 0.1fr;
+}
+
+.trash_can {
+    width: 20px;
+}
+
+.button {
+    background-color: lawngreen;
+    cursor: pointer;
+}
