@@ -1,0 +1,46 @@
+.container {
+    width: 250px;
+    margin: 40px auto;
+    background-color: goldenrod;
+    border: 3px solid blue;
+    border-radius: 5px;
+    display: grid;
+    justify-items: center;
+}
+
+.error {
+    border-color: red;
+}
+
+.inputButton {
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.inputButton input {
+    margin-right: 5px;
+    border-radius: 3px;
+    border: 2px solid cadetblue;
+}
+
+.inputButton button {
+    margin-right: 5px;
+    border-radius: 3px;
+    border: 2px solid cadetblue;
+}
+
+.totalUsers {
+    background-color: goldenrod;
+    border: 3px solid green;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+
+.spanError {
+    color: red;
+    background-color: white;
+    border-radius: 5px;
+
+}

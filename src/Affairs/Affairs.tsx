@@ -5,10 +5,9 @@ import {Affair} from "./Affair";
 export type AffairType = {
     id: number
     name: string
-    priority: string
+    priority: "high" | "middle" | "low"
 }
 export type FilterValuesType = "All" | "High" | "Middle" | "Low"
-
 
 const Affairs = () => {
 

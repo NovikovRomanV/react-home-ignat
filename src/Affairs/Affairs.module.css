@@ -31,6 +31,10 @@ ul {
     width: 20px;
 }
 
+.trash_can:hover {
+    background-color: silver;
+}
+
 .button {
     background-color: lawngreen;
     cursor: pointer;

@@ -1,6 +1,6 @@
 import React from "react";
 import s from "./Affairs.module.css";
-import {AffairType, FilterValuesType} from "./Affairs";
+import {AffairType} from "./Affairs";
 type AffairPropsType = {
     titleAffairs: Array<AffairType>
     deleteAffair: (id: number) => void
@@ -16,7 +16,7 @@ export const Affair = (props:AffairPropsType) => {
                             <span>{a.name}</span>
                             <span className={s.button} onClick={() => {
                                 props.deleteAffair(a.id)
-                            }}><img className={s.trash_can} alt={"trash can"} src={"https://cdn.icon-icons.com/icons2/390/PNG/512/trash-can_38501.png"}/></span>
+                            }}><img className={s.trash_can} alt={"trash can"} src={require("./img/trash-can_38501.png")}/></span>
                         </li>
                     )
                 })
