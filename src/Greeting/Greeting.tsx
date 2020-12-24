@@ -31,7 +31,7 @@ export const Greeting = () => {
             setError("Error provide user name!")
         }
     }
-    const classError = error !== '' ? s.error : '';
+    const classError = error ? s.error : '';
 
     return <div className={s.container}>
         <div className={s.inputButton}>
